@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "dev": "turbo run dev:frontend dev:backend",
+    "dev:frontend": "cd packages/frontend-repo && npm run dev",
+    "dev:backend": "cd packages/backend-repo && npm run dev",
+    "build": "turbo run build:frontend && npm run build:backend",
+    "build:frontend": "cd packages/frontend-repo && npm run build",
+    "build:backend": "cd packages/backend-repo && npm run build"
+  },
+  "packageManager": "npm@9.5.0",
+  "devDependencies": {
+    "turbo": "^2.3.3"
+  }
+}

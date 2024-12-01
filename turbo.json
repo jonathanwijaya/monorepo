@@ -1,0 +1,22 @@
+{
+  "tasks": {
+    "build": {
+      "dependsOn": ["^build"]
+    },
+    "dev": {
+      "dependsOn": ["^dev"]
+    },
+    "dev:frontend": {
+      "outputs": []
+    },
+    "dev:backend": {
+      "outputs": []
+    },
+    "build:frontend": {
+      "outputs": []
+    },
+    "build:backend": {
+      "outputs": []
+    }
+  }
+}
